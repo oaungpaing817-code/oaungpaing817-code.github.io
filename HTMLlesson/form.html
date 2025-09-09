@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Student Register <br>
+
+
+
+        <form action="register.php" method="Get"> <br>
+
+
+        <div>
+            <label for="name"> name</label><br>
+            <input type="text" name=" name" id="name" placeholder="eg;Aung Aung" minlength="10" maxlength="15">  <div></div>
+        <br>
+
+        <div>
+        <label for="age">age</label><br>
+        <input type="number" name="age" id="age" placeholder="eg;20" min="18" max="40"> 
+        </div>
+    
+
+        <br>
+
+        <div>
+        <label for="phone">phone</label><br>
+        <input type="number" name="phone" id="phone" placeholder="09######" min="11" max="11">  
+     </div>
+          
+        <br>
+
+        <div>
+        <label for="email">email</label><br>
+         <input type="email" name=" email" id="email" required placeholder="eg;example@gmail.com">  
+        </div>
+         <br>
+         
+       <div>
+         <label for="password">password</label><br>
+         <input type="password" name="password" id="password" required placeholder="eg;example@123">
+         </div>
+      
+         <label for="">Gender</label>
+         <div>
+              <input type="radio" id="male" value="male" name="gender">
+              <label for="male">Male</label>
+         </div> 
+         <br>
+
+
+         <div>
+              <input type="radio" id="female" value="female" name="gender">
+              <label for="female">Female</label>
+
+              
+         </div>
+         <br>
+
+
+         <div>
+              <label for="education">Education</label>
+              <select name="education" id="education">
+                   <option value="highschool">High School</option>
+                   <option value="bachelor">Bachelor's Degree</option>
+                   <option value="master">Master's Degree</option>
+                   <option value="phd">PhD</option>
+              </select>
+         </div>
+         <br>
+
+         <br>
+        <div>
+            <fieldset>
+                  <legend>Rules</legend>
+                  <ol>
+                      <li>Please fill in all fields.</li>
+                      <li>Make sure your email is valid.</li>
+                      <li>Password must be at least 8 characters long.</li>
+                  </ol>
+            </fieldset> <br>
+
+            
+             <div>
+
+
+
+
+
+             </div>
+
+
+        </div>
+<button type="submit">Register</button>
+        </form>
+    </h1>
+</body>
+</html>
