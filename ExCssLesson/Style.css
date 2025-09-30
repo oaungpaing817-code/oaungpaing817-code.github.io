@@ -1,0 +1,33 @@
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    color:#FF00aa;
+}
+*{
+    letter-spacing: 1px;
+}
+input[type="text"]{
+    color:#0bf775
+}
+a[title="google"]{
+    color:bisque
+}
+
+
+
+
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+a:active{
+    color: brown;
+}
+a:visited{
+    color: aquamarine;
+}

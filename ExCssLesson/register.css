@@ -1,0 +1,100 @@
+h1{
+    text-align:center;
+    color:red;
+}
+body{
+    background-color: #59c4cc;
+}
+#form{
+    width: 50%;
+    margin:auto;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    height: 25px;
+    width: 80%;
+    margin-bottom: 30px;
+    outline: none;
+
+}
+input[type="text"]:focus,input[type="email"]:focus,input[type="number"]:focus{
+    border: 2px solid rgb(160, 158, 158);
+    border-radius: 5px;
+}
+input[type="radio"]:checked+label{
+    color:blue;
+    font-style:italic;
+}
+.label-title{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.label-title-apo{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+p:empty{
+    height:2px;
+    background-color:blue;
+}
+.border{
+    border:2px solid rgb(0, 0, 0);
+    color:rgb(175, 29, 139)
+}
+/*      */
+h1{
+    text-align: center;
+    color:rgb(148, 9, 74)
+}
+#aaoo{
+    color:blue
+}
+.ooaa{
+    color:rgb(141, 14, 173);
+    text-indent: 50px;
+}
+#child > a{
+    color:red
+}
+#apo a{
+    color:yellow;
+}
+
+.padding{
+    border:2px solid rgb(0, 0, 0);
+    color:rgb(175, 29, 139);
+    margin:40px;
+    padding:30px;
+}
+.border-one{
+     border-bottom:10px solid rgb(104, 16, 204);
+
+}
+.border-two{
+     border-style:dotted double solid double;
+}
+
+.margin{
+    margin:40px;
+}
+.float img{
+    width:50%;
+    float:left;
+    border:solid 3pX red;
+}
+.apo div ,.apo1 div{
+   padding:20px;
+   color:rgb(255, 255, 255);
+   text-align: center;
+}
+.apo , .apo1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.apoo{
+   grid-column-start: 1;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}

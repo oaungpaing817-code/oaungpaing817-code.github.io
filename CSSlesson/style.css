@@ -1,0 +1,75 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #00ff15;
+    font-size: 1in;
+
+
+}
+
+/* universal sel */
+* {
+    letter-spacing: 1px;
+    color: rgb(190, 74, 74)
+}
+
+/* Tag sel / Emement */
+p {
+    font-size: 40px;
+
+}
+
+small {
+    color: rgb(76, 7, 238);
+}
+
+/* Attibute sel */
+input[type="text"] {
+    color: rgb(0, 255, 42);
+}
+/* id sle */
+a[title=Google] {
+    color: rgb(53, 22, 110);
+}
+#aaoo{
+    color:black;
+}
+/* class sle */
+.ooaa{
+    color:rgb(131, 153, 51);
+    text-indent: 100px;
+}
+/* desc */
+#child a{
+    color: black;
+}
+
+/* child */
+#child>a{
+    color:rgb(130, 199, 18)
+}
+a:link{
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    color:black;
+}
+a:active{
+    color:green;
+    font-size:40px
+}
+a:visited{
+    color:rgb(45, 181, 59);
+}
+p:target{
+     color:black;
+}
+h3:target{
+    color:green;
+
+}
+div:target{
+    color:red;
+    
+}

@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.nav-tabar h1{
+    font-size: 75px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-style:italic ;
+}
+.nav-tabar li,div,h1{
+    display: inline-block;
+}
+.nav-tabar li,div{
+     margin-top: 30px;
+    margin-left: 30px;
+}
+.buy-now{
+    text-decoration: none; 
+    color: black;
+    background-color: rgb(43, 25, 179);
+    color: #ffffff !important; 
+    display: inline-block;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border: 2px solid #0c0c0c ;
+}
+
+.nav-tabar li a{
+    border: #ffffff !important;
+    color: #480baa;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.nav-tabar-input{
+    height: 10px;
+    width:400px ;
+    font-size: 10px;
+}
+.nav-tabar li{
+    margin: auto;
+}
+
+
+.search{
+    text-decoration: none; 
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff !important; 
+    display: inline-block;
+    padding: 10px 6px;
+    margin-left: 70px;
+}
+.buy-now:hover{
+    background-color: rgb(255, 255, 255);
+    color: #440bad !important; 
+}
+/*  */
+.bunner-photo{
+    border: 2px soli #b80202;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto 400px auto;
+    width: 90%;
+    grid-row: 10px;
+}
+.bunner-photo img{
+    width: 108%;
+}
+.photo{
+    border:2px solid  #0c0c0c;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+/*  */
+.about-img{
+     margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    margin-left: 70px;
+    margin-right: 80px;
+    margin-top: 10px;
+    width: 80%;
+}
+.about h2{
+    margin-left: 480px;
+    border: 1px solid black ;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-top: 20px;
+    background-color: #590bd6;
+    color: aliceblue;
+}
+.about-broder{
+    border: 3px solid rgb(17, 8, 15);
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+}
+.popular-item{
+    border: 2px solid rgb(216, 226, 226);
+    border-radius: 5px;
+
+}
+.popular-item h3{
+     padding: 5px 35px;
+}
+.popular-item p{
+    padding: 5px 20px;
+}
+.popular-item h4{
+    padding: 6px 30px;
+    text-align: center;
+    color: blue;
+}
+.popular-item img{
+    height: 80%;
+}
+.popular-item button{
+    padding: 4px;
+    float: right;
+    margin-bottom: 30px;
+    background-color: #590bd6;
+    color: #ffffff;
+    border-radius: 5px;
+}
+/*  */
+
+
+
+
+.button-nav h2{
+    margin: auto;
+    border:1px solid black;
+    padding: 5px 15px;
+    border-radius: 7px;
+    margin-top: 60px;
+    margin-left: 590px;
+    margin-bottom: 40px;
+    background-color: #440bad;
+    color: #f0eded;
+}
+.button-about-nav{
+    margin: auto;
+}
+.left-about{
+    width: 30%;
+    float: left;
+    margin-left: 40px;
+}
+
+.about-test1,.about-test2,.about-test3,.about-test4{
+    padding-top: 5px;
+}
+.about-test-margin{
+    margin: 0;
+    margin-left: 50px;
+}
+.clear-1{
+    clear: both;
+}
+
+
+/*  */
+.signup{
+    margin: auto;
+    display: float;
+    float: left;
+    width: 50%;
+}
+
+
+/*  */
+.signup h4{
+    margin-left: 50px;
+   margin-top: 90px;
+}
+#form{
+    width: 80%;
+    margin-left: 40px;
+
+}
+.pofolio{
+    float: right;
+    border: 3px solid bisque;
+}
+input[type="number"],input[type="text"],input[type="email"],input[type="password"]{
+    height: 30px;
+    width: 60%;
+}
+/*  */
+
+.register{
+    text-decoration: none; 
+    color: black;
+    background-color: rgb(43, 25, 179);
+    color: #ffffff !important; 
+    display: inline-block;
+    padding: 6px 6px;
+    border-radius: 10px;
+    border: 2px solid #0c0c0c ;
+    margin-top: 30px;
+    margin-left: 70px;
+} 
+.find-title{
+    margin: auto;
+    border: 2px solid black;
+} 
+.mm-market{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.below{
+    text-align: center;
+    margin-left: 600px;
+}
+.divided{
+    border: 1px solid black; 
+    margin-top:20px ;
+}
+.copy_right{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #0c0c0c;
+    color: azure;
+}
