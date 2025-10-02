@@ -94,9 +94,19 @@
     border: 1px solid black ;
     padding: 5px 15px;
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 40px;
     background-color: #590bd6;
     color: aliceblue;
+
+}
+.brand{
+    margin-left: 550px;
+    border: 1px solid black ;
+    padding: 5px 15px;
+    border-radius: 7px;
+    background-color: #590bd6;
+    color: aliceblue;
+    margin-top: 60px;
 }
 .about-broder{
     border: 3px solid rgb(17, 8, 15);
@@ -141,7 +151,7 @@
     padding: 5px 15px;
     border-radius: 7px;
     margin-top: 60px;
-    margin-left: 590px;
+    margin-left: 500px;
     margin-bottom: 40px;
     background-color: #440bad;
     color: #f0eded;
@@ -230,4 +240,13 @@ input[type="number"],input[type="text"],input[type="email"],input[type="password
     padding-top: 10px;
     background-color: #0c0c0c;
     color: azure;
+}
+
+
+/*  */
+
+.mmandmarket{
+    background-color: #e6e6e7;
+    padding-bottom: 40px;
+    margin: 0;
 }
